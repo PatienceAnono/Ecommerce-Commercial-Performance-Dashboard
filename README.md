@@ -35,7 +35,16 @@ The objective of this dashboard is to move beyond basic reporting and deliver cl
 
 ---
 
-## Dashboard Pages
+## 📊 Dashboard Preview
+
+### Revenue Overview
+[![Revenue Overview](Images/Revenue%20Overview.png)](Images/Revenue%20Overview.png)
+
+### Product Performance
+[![Product Performance](Images/Product%20Performance.png)](Images/Product%20Performance.png)
+
+### Customer Insights
+[![Customer Insights](Images/Customer%20Insights.png)](Images/Customer%20Insights.png)
 
 ### 1. Revenue Overview
 - KPI summary cards (Revenue, Orders, Customers, AOV)
