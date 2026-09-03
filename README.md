@@ -4,8 +4,6 @@
 
 An end-to-end **Ecommerce Commercial Performance Dashboard** built in Microsoft Power BI to transform raw transactional ecommerce data into decision-ready insight across revenue, customers, products, marketing channels, regional performance, and customer retention.
 
-Built by **PA Data Analytics** from a stakeholder-first perspective — designed for business owners, ecommerce managers, marketing managers, commercial teams, and senior management, not just analysts.
-
 ---
 
 ## 📌 Project Overview
@@ -198,20 +196,6 @@ Documenting these because a portfolio project should show judgment, not just out
 - **`Customer Type` is a lifetime classification, not a time-bound one.** It flags a customer as "New" only if they have ever placed exactly one order across the *entire* two-year dataset — which is why it shows 500 of 501 customers as "Returning." This is correct behavior for what it measures, but it cannot answer "how many new customers did we acquire this month," which is why the separate time-bound `New Customers` / `Returning Customers` measures exist alongside it.
 - **`Retention %` and `Cohort Size` only make sense inside a proper Cohort Month × Months-Since-First-Purchase matrix.** Evaluated flat (no cohort row context), `Cohort Size` correctly-but-confusingly resolves to whatever the single most recent cohort is — which can be as small as 1 customer. Verified against the full cohort table before shipping, to confirm the measures are correct as designed rather than assuming a flat-query result was representative.
 - Two duplicate measures were identified and removed during model audit: `Revenue per Order` (identical to `AOV`) and the original `Customer Revenue` (identical to `Total Revenue` despite its name — since renamed and corrected to `Avg Revenue per Customer`).
-
----
-
-## 🎨 Brand & Visual System
-
-Built to the PA Data Analytics visual identity:
-
-| Swatch | Hex | Usage |
-|---|---|---|
-| Primary Navy | `#272D78` | Backgrounds, headers, key shapes |
-| Primary Blue | `#3386C7` | Subheads, secondary shapes, default chart color |
-| Light Background Grey | `#F8F9FC` | Content backgrounds |
-| Dark Text Grey | `#555770` | Body copy |
-| Accent Teal | `#2EC4B6` | Single highlight only — never a base color |
 
 ---
 
