@@ -177,6 +177,20 @@ This is the kind of finding a raw sales table hides and a properly built cohort 
 
 ---
 
+## 💡 Recommendations
+
+Translating the finding above into action — this is the difference between a dashboard and a decision:
+
+1. **Separate acquisition tracking from revenue tracking by channel.** `Revenue by Marketing Channel` currently shows all five channels within 6% of each other — but that revenue is dominated by the existing 501-customer base, not new signups. Add a `New Customers by Marketing Channel` measure to see whether *any* channel is still acquiring, since the current view can mask a channel that looks healthy on revenue while contributing zero new customers.
+2. **Set a standing new-customer-acquisition target and alert threshold.** With acquisition at zero for 8 straight months, this should be a headline KPI on Revenue Overview, not something that only surfaces on the Retention Cohort page.
+3. **Investigate whether this is a demand-side or supply-side problem** — i.e., has marketing spend on top-of-funnel channels actually dropped, or has spend continued while conversion has collapsed? The dashboard can show *that* acquisition stopped; closing this loop needs marketing spend data joined in, which isn't currently in this model.
+4. **Consider a referral/advocacy push.** `Referral` is already the top-performing channel by revenue — with a 99.8% repeat rate, this customer base is clearly loyal. A structured referral program could convert that loyalty into the new-customer pipeline that's currently missing.
+5. **Build a customer value tier** (not currently in the model — e.g., revenue quartiles) to identify which of the 501 existing customers are worth protecting most, given the business currently has no acquisition engine offsetting any future churn.
+
+**Caveat:** these recommendations follow directly from the pattern in the data as modeled. Before acting on them commercially, they'd need to be checked against real marketing spend and campaign records, in case the acquisition drop reflects a change in how new signups were tagged or recorded rather than a genuine stop in acquisition.
+
+---
+
 ## 🛠️ Design Decisions & Data Quality Notes
 
 Documenting these because a portfolio project should show judgment, not just output:
