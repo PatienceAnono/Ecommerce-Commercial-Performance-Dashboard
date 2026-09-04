@@ -167,8 +167,6 @@ CALCULATE(
 
 ## 🔍 Key Analytical Findings
 
-This isn't just a dashboard — the model surfaced a real commercial issue worth calling out on its own:
-
 > **Customer acquisition has effectively stopped.** 37% of the entire 501-customer base (187 customers) was acquired in the very first month of the dataset. Acquisition then declined sharply month over month, and **zero new customers were acquired in the final 8 months** of the two-year window (May–Dec 2025). Filtered to 2025 alone, just 5 new customers were acquired against 492 returning — contributing only $21K of the year's $1.99M in revenue.
 
 This is the kind of finding a raw sales table hides and a properly built cohort model surfaces immediately — exactly the value this dashboard is designed to deliver.
